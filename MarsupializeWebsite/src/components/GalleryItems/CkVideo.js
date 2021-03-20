@@ -3,7 +3,7 @@ import { useState, useEffect} from "react";
 import {  Typography,} from "@material-ui/core";
 import { colors } from "../../styles/colors";
 
-import ckVideo from 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/video0.mov';
+import ckVideo from '../../Images/video0.mov';
 // const ckVideo = 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/video0.mov'
 export function CkVideo(props) {
 

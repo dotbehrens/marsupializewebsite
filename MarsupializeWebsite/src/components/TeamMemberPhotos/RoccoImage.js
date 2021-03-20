@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import Rocco from 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/Rocco_SummaCropped.jpg'
+import Rocco from '../../Images/Rocco_SummaCropped.jpg'
 export function RoccoImage() {
  
   return (

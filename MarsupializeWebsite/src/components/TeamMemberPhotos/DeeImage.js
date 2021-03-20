@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import Dee from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/dee.jpg"
+import Dee from "../../Images/dee.jpg"
 export function DeeImage() {
  
   return (

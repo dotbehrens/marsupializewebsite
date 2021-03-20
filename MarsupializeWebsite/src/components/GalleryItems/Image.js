@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { TextareaAutosize, Typography, Grid } from "@material-ui/core";
 import { colors } from "../../styles/colors";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {CkVideo} from '../GalleryItems/CkVideo'
+
 
 import CkDrawing from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/GallaryImages/ckdrawing.jpg"
 
@@ -38,7 +38,7 @@ export function Image (props) {
           display: "inline-flex",
         }}>
             <div style={{paddingTop:20, padding:20 }}>
-            <img src={CkDrawing} alt="ckdrawing" style={{height:400, width: 350, borderRadius:8}}/>
+            <img src={CkDrawing} alt="ckdrawing" style={{height:400, width: 'auto', borderRadius:8}}/>
 
   
             </div>

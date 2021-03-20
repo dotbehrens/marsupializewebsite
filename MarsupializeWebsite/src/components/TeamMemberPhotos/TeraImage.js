@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import Tera from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/TeraCropped2.jpg"
+import Tera from "../../Images/TeraCropped2.jpg"
 export function TeraImage() {
  
   return (

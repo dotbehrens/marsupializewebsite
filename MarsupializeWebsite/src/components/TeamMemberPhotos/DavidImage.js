@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import David from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/DavidBrookscropped.jpg"
+import David from "../../Images/DavidBrookscropped.jpg"
 export function DavidImage() {
  
   return (

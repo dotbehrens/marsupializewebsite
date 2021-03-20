@@ -1,5 +1,6 @@
 import * as React from 'react'; 
-import Andy from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/AndyCropped2.jpg"
+import Andy from "../../Images/AndyCropped2.jpg"
+
 export function AndyImage() {
  
   return (
