@@ -21,7 +21,7 @@ export function TeamMemberProfile(props) {
     } else if (props.index % 5 === 0) {
       setColorProfile({
         background: colors.ckBlack,
-        text: colors.ckNavyBlue,
+        text: colors.ckOffWhite,
       });
       
     }
@@ -39,7 +39,7 @@ export function TeamMemberProfile(props) {
       <div>
 
      
-      <div style={{marginLeft:500, marginRight:100, color:'white', height:300, width:800}}>Quisque varius arcu quis leo mattis lobortis. Integer finibus velit est, quis semper ante ele </div>
+      
       <div
         container
         direction='column'
@@ -75,15 +75,16 @@ export function TeamMemberProfile(props) {
             <Typography
               class='teamMemberFunFact'
               style={{
-                color: colors.ckOffWhite,
+                color: colorProfile.text,
                 "font-family": "Gochi Hand",
                 "font-size": 16,
+
                 textAlign: "left",
               }}>{`Favorite Marsupial : ${props.member.favMarsupial}`}</Typography>
             <Typography
               class='teamMemberFunFact'
               style={{
-                color: colors.ckOffWhite,
+                color: colorProfile.text,
                 "font-family": "Gochi Hand",
                 "font-size": 16,
                 textAlign: "left",
@@ -107,7 +108,7 @@ export function TeamMemberProfile(props) {
             <Typography
               class='teamMemeberName'
               style={{
-                color: colors.ckOffWhite,
+                color: colorProfile.text,
                 "font-family": "Syne Mono",
                 "font-size": 21,
                 textAlign: "left",
@@ -118,7 +119,7 @@ export function TeamMemberProfile(props) {
             <Typography
               class='teamMemberRole'
               style={{
-                color: colors.ckOffWhite,
+                color: colorProfile.text,
                 "font-family": "Syne Mono",
                 "font-size": 16,
                 textAlign: "left",
@@ -131,7 +132,7 @@ export function TeamMemberProfile(props) {
             <Typography
               class='teamMemberBio'
               style={{
-                color: colors.ckOffWhite,
+                color: colorProfile.text,
                 "font-family": "Syne Mono",
                 "font-size": 20,
                 textAlign: "left",

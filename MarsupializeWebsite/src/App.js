@@ -10,6 +10,7 @@ import { TeamMemberProfileList } from './components/TeamMemberProfileList';
 import {LetterHead} from "./components/LetterHead"
 import { MarsupialFooterBar } from './components/MarsupialFooterBar';
 import {Home} from '../src/screens/Home'
+import {Team} from '../src/screens/Team'
 import {Contact} from '../src/screens/Contact'
 import {PlayScreen} from './screens/Play'
 export const width = window.innerWidth
@@ -27,11 +28,7 @@ function App() {
       <div className="App" style={{backgroundColor: colors.ckNavyBlue}}>
       <MarsupialAppBar setScreen={()=>setScreen()}/>
 <LetterHead/>
-<div >
-
-<TeamMemberProfileList/>
-
-</div>
+<Team/>
 <MarsupialFooterBar/>
     </div>
     )

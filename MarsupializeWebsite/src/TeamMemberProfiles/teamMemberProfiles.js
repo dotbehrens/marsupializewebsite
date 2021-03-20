@@ -5,6 +5,9 @@ import {DavidImage} from "../components/TeamMemberPhotos/DavidImage"
 import {RoccoImage} from "../components/TeamMemberPhotos/RoccoImage"
 import {TeraImage} from "../components/TeamMemberPhotos/TeraImage"
 import {DeeImage} from "../components/TeamMemberPhotos/DeeImage"
+import {BellaImage} from '../components/TeamMemberPhotos/BellaImage'
+import {KangarooImage} from '../components/TeamMemberPhotos/KangarooImage'
+import {KoalaImage} from '../components/TeamMemberPhotos/KoalaImage'
 export const profiles = [
     {
         id: 2,
@@ -57,7 +60,7 @@ export const profiles = [
     name_Last:'Suma',
     name_Full:'Isabella Summa',
     role: 'Artist',
-    // image:,
+    image:<BellaImage/>,
     bio: "I'm studying Environmental Science at the University of New Orleans, which is not only interesting to me but I believe very important for our future. I've always gravitated towards art and this is a really exciting opportunity to explore my creative side and learn more about game development along the way. My only other experience with sculpting was a 3D art class that piqued my interest in clay, and I've loved learning how to work with this medium to bring our characters and their world to life!  ",
     favMarsupial: "null",
     favGame: "null"
@@ -79,7 +82,7 @@ export const profiles = [
     name_Last:'Navas',
     name_Full:'Victoria Navas',
     role: 'Artist',
-    // image:,
+    image: <KangarooImage/>,
     bio: "I am a digital art/animation major and owner of a pet hedgehog named Ciri. Since I was young, I've loved video games (and comics) and they played a big factor in me choosing to pursue art. I am normally a 2D artist. In this project, I get to dabble a bit in sculpting marsupials which is a bit new to me and I love that I get to have this experience!",
     favMarsupial: "Tazmanian Tiger",
     favGame: "Witcher 3"
@@ -101,7 +104,7 @@ export const profiles = [
     name_Last:'Eyer',
     name_Full:'Mark Eyer',
     role: '3D Scanning Tech/Artist, Programmer',
-    // image:,
+    image:<KoalaImage/>,
     bio: "I am a local New Orleanean currently attending the University of New Orleans for computer science. The research that i'm most excited about at the moment is on 'data as art' and using visualizations to present concepts that are otherwise difficult to see clearly or imagine the scale of. I have been enjoying learning more about tools for manipulaiting 3D objects. I have playing video games, but never saw myself making them; I am nonetheless excited about our project and have already learned so much.",
     favMarsupial: "Goodfellow's Tree-Kangaroo",
     favGame: "Subnautica"
@@ -117,20 +120,42 @@ export const profiles = [
     favMarsupial: "null",
     favGame: "null"
 },
+{
+    id: 12,
+    name_First: 'Eliott',
+    name_Last:'',
+    name_Full:'Eliott',
+    role: ['Programmer'],
+    image:<BellaImage/>,
+    bio: ``,
+    favMarsupial: "null",
+    favGame: "null"
+},
+{
+    id: 13,
+    name_First: 'Dot',
+    name_Last:'Behrens',
+    name_Full:'Dot Behrens',
+    role: ['Programmer'],
+    image:<KangarooImage/>,
+    bio: ``,
+    favMarsupial: "Koala",
+    favGame: "null"
+},
 // {
 //     id: 12,
-//     name_First:,
-//     name_Last:,
+//     name_First: 'Eliott',
+//     name_Last: 'Frilet',
 //     name_Full:'Eliott',
 //     role: ['3D Artist', 'QA Tester'],
-//     image:,
-//     bio: ""
+//     image: <BellaImage/>,
+//     bio: "",
 // favMarsupial: "Bandicoot",
-// favGame: ""
-// socialMedia: {
-//     linkedIn: '',
-//     twitch: '',
-//     personalWebsite: ''
-// }
+// // favGame: ""
+// // socialMedia: {
+// //     linkedIn: '',
+// //     twitch: '',
+// //     personalWebsite: ''
+// // }
 // },
 ]

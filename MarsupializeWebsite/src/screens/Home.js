@@ -8,11 +8,14 @@ export function Home () {
 
 
    <div className="">
-    
-    <div style={{marginLeft:500, marginRight:100, color:'white', height:300, width:800}}>Quisque varius arcu quis leo mattis lobortis. Integer finibus velit est, quis semper ante ele </div>
+  
+    <Typography style={{marginLeft:'auto', marginRight:'auto', color:'white', height:300, width:800, 'font-size': 20}}>Quisque varius arcu quis leo mattis lobortis. Integer finibus velit est, quis semper ante ele </Typography>
    
   <Image/>
    <Gif/>
+   <div style={{height:200}}>
+
+   </div>
       </div>
     );
   }
