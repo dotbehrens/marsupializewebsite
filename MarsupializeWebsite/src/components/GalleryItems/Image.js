@@ -7,7 +7,7 @@ import { colors } from "../../styles/colors";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-import CkDrawing from "C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/GallaryImages/ckdrawing.jpg"
+import CkDrawing from "../../Images/GallaryImages/ckdrawing.jpg"
 
 
 export function Image (props) {
