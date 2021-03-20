@@ -1,4 +1,4 @@
-import { TextareaAutosize, Typography, Grid } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 
 import { TeamMemberProfileList } from '../components/TeamMemberProfileList';
 export function Team () {

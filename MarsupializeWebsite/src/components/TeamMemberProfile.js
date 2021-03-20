@@ -1,6 +1,6 @@
 import * as React from "react";
-import { useState, } from "react";
-import { TextareaAutosize, Typography, Grid } from "@material-ui/core";
+import { useState,useEffect } from "react";
+import { Typography,  } from "@material-ui/core";
 import { colors } from "../styles/colors";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -12,27 +12,26 @@ export function TeamMemberProfile(props) {
   });
   const [viewState, setViewState] = useState("viewMore");
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (props.index % 7 === 0) {
       setColorProfile({
         background: colors.ckPurple,
         text: colors.ckNavyBlue,
-      });
+      })
     } else if (props.index % 5 === 0) {
       setColorProfile({
         background: colors.ckBlack,
         text: colors.ckOffWhite,
-      });
+      })
       
     }
     else if (props.index % 2 === 0) {
       setColorProfile({
         background: colors.ckGrey,
         text: colors.ckNavyBlue,
-      });
+      })}
       
-    }
-  });
+    }, [props.index]);
 
   if (viewState === "viewMore") {
     return (

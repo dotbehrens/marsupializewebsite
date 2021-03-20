@@ -1,23 +1,11 @@
-
-
 import * as React from "react";
-import { useState, useEffect } from "react";
-import { TextareaAutosize, Typography, Grid } from "@material-ui/core";
 import { colors } from "../../styles/colors";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
 import CkDrawing from "../../Images/GallaryImages/ckdrawing.jpg"
 
 
 export function Image (props) {
 
-    const [colorProfile, setColorProfile] = useState({
-      background: colors.ckRedGrey,
-      text: "",
-    });
-    const [viewState, setViewState] = useState("viewLess");
-  
+   
 
    
     return (

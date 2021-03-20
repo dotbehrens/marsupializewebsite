@@ -6,7 +6,7 @@ import { useState, } from "react";
 
 import {colors} from "../src/styles/colors"
 
-import { TeamMemberProfileList } from './components/TeamMemberProfileList';
+
 import {LetterHead} from "./components/LetterHead"
 import { MarsupialFooterBar } from './components/MarsupialFooterBar';
 import {Home} from '../src/screens/Home'

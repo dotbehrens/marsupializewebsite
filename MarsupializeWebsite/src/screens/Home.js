@@ -1,7 +1,7 @@
 import { Typography, } from '@material-ui/core';
 // const ckVideo = 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/video0.mov'
 import {Gif} from '../components/GalleryItems/Gif'
-import {Video} from '../components/GalleryItems/Video'
+
 import {Image} from '../components/GalleryItems/Image'
 import {CKEarlyRenderImage} from '../components/GalleryItems/CKEarlyRender'
 import {CKRenderingImage} from '../components/GalleryItems/CKRendering'
