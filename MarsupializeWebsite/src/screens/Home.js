@@ -1,7 +1,7 @@
 import { Typography, } from '@material-ui/core';
 // const ckVideo = 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/video0.mov'
 import {Gif} from '../components/GalleryItems/Gif'
-
+import {Player} from '../components/GalleryItems/AudioPlayer1'
 import {Image} from '../components/GalleryItems/Image'
 import {CKEarlyRenderImage} from '../components/GalleryItems/CKEarlyRender'
 import {CKRenderingImage} from '../components/GalleryItems/CKRendering'
@@ -24,6 +24,10 @@ export function Home () {
      <CactiImage/>
      <CactusFlowerImage/>
   <CKBonkImage/>
+   </div>
+   <div>
+   <Player/>
+
    </div>
    <div>
    <CKEarlyRenderImage/>

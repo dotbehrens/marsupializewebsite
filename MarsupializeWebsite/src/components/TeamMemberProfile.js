@@ -36,9 +36,6 @@ export function TeamMemberProfile(props) {
   if (viewState === "viewMore") {
     return (
       <div>
-
-     
-      
       <div
         container
         direction='column'
