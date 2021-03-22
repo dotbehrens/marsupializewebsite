@@ -40,7 +40,7 @@ function App() {
   <LetterHead/>
   <Contact/>
   
-  <MarsupialFooterBar/>
+  <MarsupialFooterBar setScreen={()=>setScreen()}/>
       </div>
     )
   }else if(screen === 'play'){
@@ -51,7 +51,7 @@ function App() {
   <LetterHead/>
   <PlayScreen/>
   
-  <MarsupialFooterBar/>
+  <MarsupialFooterBar setScreen={()=>setScreen()}/>
       </div>
     )
   }
@@ -60,14 +60,14 @@ function App() {
 
     return (
       <div className="App" style={{backgroundColor: colors.ckNavyBlue}}>
-      <MarsupialAppBar MarsupialAppBar setScreen={setScreen}/>
+      <MarsupialAppBar MarsupialAppBar setScreen={()=>setScreen()}/>
 <LetterHead/>
 <div style={{alignItems:'center', 'justify-content': 'center', marginLeft:'auto',marginRight:'auto'}}>
 
 <Home/>
 
 </div>
-<MarsupialFooterBar/>
+<MarsupialFooterBar setScreen={()=>setScreen()}/>
     </div>
   );
 }

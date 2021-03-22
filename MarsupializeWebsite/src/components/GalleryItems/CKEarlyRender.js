@@ -1,11 +1,10 @@
 
 
 import * as React from "react";
-import { useState, useEffect } from "react";
-import { TextareaAutosize, Typography, Grid } from "@material-ui/core";
+import { useState,  } from "react";
+
 import { colors } from "../../styles/colors";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {CkVideo} from '../GalleryItems/CkVideo'
+
 
 import CKEarlyRender from "../../Images/GallaryImages/CKEarlyRender.png"
 

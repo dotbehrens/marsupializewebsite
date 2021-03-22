@@ -7,7 +7,7 @@ import {width} from "../App"
 export function Contact (props) {
 
     return (
-      <div className="App" style={{marginTop:-50}} >
+      <div className="App" style={{marginTop: 70}} >
           <Typography style={{color:colors.ckGrey, "font-family": 'Syne Mono',"font-size": 20,  textAlign:"center", paddingBottom:20}}>We are always happy to hear from people about thier expirience with our game. </Typography>
           <Typography style={{color:colors.ckGrey, "font-family": 'Syne Mono',"font-size": 20,  textAlign:"center"}}> Feedback is not only appreciated but it is needed for continual improvement. </Typography>
      <Typography style={{color:colors.ckGrey, "font-family": 'Syne Mono',"font-size": 22, paddingTop:20,textAlign:"center"}}> If you would like to contact us, please email </Typography>

@@ -8,13 +8,14 @@ import {CKRenderingImage} from '../components/GalleryItems/CKRendering'
 import {CactiImage} from '../components/GalleryItems/Cacti'
 import {CactusFlowerImage} from '../components/GalleryItems/CactusFlower'
 import {CKBonkImage} from '../components/GalleryItems/CKBonk'
+import {colors} from '../styles/colors';
 export function Home () {
     return (
 
 
    <div className="">
   
-    <Typography style={{marginLeft:'auto', marginRight:'auto', color:'white', height:300, width:800, 'font-size': 20}}>Quisque varius arcu quis leo mattis lobortis. Integer finibus velit est, quis semper ante ele </Typography>
+    <Typography style={{marginTop: 150, marginLeft:'auto', marginRight:'auto', color:colors.ckGrey, height:300, width:1000, 'font-size': 30, "font-family": "Syne Mono",}}>Welcome! We are Team Marsupialize, a game developement team from the Greater New Orleans area, hellbent on bringing you games littered with adorable pocketed friends. </Typography>
    <div>
    <Gif/>
    <CKRenderingImage/>

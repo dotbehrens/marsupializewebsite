@@ -9,7 +9,7 @@ export function CKLogo() {
 
 <div >
 
-<img src={ckLogo} alt="ckLogo" style={{height:400, marginTop: -50}}/>
+<img src={ckLogo} alt="ckLogo" style={{height:350, marginTop: -50}}/>
     </div>
 
 

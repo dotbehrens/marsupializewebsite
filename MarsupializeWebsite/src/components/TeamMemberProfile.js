@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState,useEffect } from "react";
 import { Typography,  } from "@material-ui/core";
 import { colors } from "../styles/colors";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function TeamMemberProfile(props) {
   console.log("OurMembers", props.member);
@@ -235,13 +235,13 @@ export function TeamMemberProfile(props) {
             </Typography>
           </div>
           <div class='rightComponentBottomRow'>
-            <div class='socialMediaContainer'>
+            {/* <div class='socialMediaContainer'>
               <div class='socialMediaIcon'></div>
               <div class='socialMediaIcon'>
                 <FontAwesomeIcon icon={["fal", "linkedin-in"]} />
                 <i class='fal fa-linkedin-in'></i>
               </div>
-            </div>
+            </div> */}
 
             <div
               class='viewMore'
