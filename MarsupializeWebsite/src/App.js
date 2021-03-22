@@ -36,22 +36,22 @@ function App() {
     return (
      
         <div className="App" style={{backgroundColor: colors.ckNavyBlue, alignItems:'center', 'justify-content': 'center', marginLeft:'auto',marginRight:'auto'}}>
-        <MarsupialAppBar setScreen={()=>setScreen()}/>
+        <MarsupialAppBar setScreen={setScreen}/>
   <LetterHead/>
   <Contact/>
   
-  <MarsupialFooterBar setScreen={()=>setScreen()}/>
+  <MarsupialFooterBar setScreen={setScreen}/>
       </div>
     )
   }else if(screen === 'play'){
     return (
      
         <div className="App" style={{backgroundColor: colors.ckNavyBlue, alignItems:'center', 'justify-content': 'center', marginLeft:'auto',marginRight:'auto'}}>
-        <MarsupialAppBar setScreen={()=>setScreen()}/>
+        <MarsupialAppBar setScreen={setScreen}/>
   <LetterHead/>
   <PlayScreen/>
   
-  <MarsupialFooterBar setScreen={()=>setScreen()}/>
+  <MarsupialFooterBar setScreen={setScreen}/>
       </div>
     )
   }
@@ -60,14 +60,14 @@ function App() {
 
     return (
       <div className="App" style={{backgroundColor: colors.ckNavyBlue}}>
-      <MarsupialAppBar MarsupialAppBar setScreen={()=>setScreen()}/>
+      <MarsupialAppBar setScreen={setScreen}/>
 <LetterHead/>
 <div style={{alignItems:'center', 'justify-content': 'center', marginLeft:'auto',marginRight:'auto'}}>
 
 <Home/>
 
 </div>
-<MarsupialFooterBar setScreen={()=>setScreen()}/>
+<MarsupialFooterBar setScreen={setScreen}/>
     </div>
   );
 }

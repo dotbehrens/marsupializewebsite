@@ -123,13 +123,13 @@ export const profiles = [
 {
     id: 12,
     name_First: 'Eliott',
-    name_Last:'',
-    name_Full:'Eliott',
+    name_Last:'Frilet',
+    name_Full:'Eliott Frilet',
     role: ['Programmer'],
     image:<BellaImage/>,
-    bio: ``,
+    bio: `Eliott is a talented programmer always excited to tackle a puzzle. They also did not turn in a bio, so here's some fun facts about marsupials we got from https://blog.csiro.au/quick-facts-marsupials/ : Female marsupials have two uteruses (uteri) and two vaginas, which join up to form a third vagina and birth canal. Some male marsupials have a two-headed penis, which lies behind their scrotum.`,
     favMarsupial: "null",
-    favGame: "null"
+    favGame: "Magic the Gathering"
 },
 {
     id: 13,
