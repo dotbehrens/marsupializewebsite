@@ -14,6 +14,7 @@ import {CKRenderedImage} from '../components/GalleryItems/CKRenderedFront'
 import {CKRenderedBackImage} from '../components/GalleryItems/CKRendredBack'
 import {CKNAkedImage} from '../components/GalleryItems/CKNaked'
 import {PaintedLizardImage} from '../components/GalleryItems/PaintedLizard'
+import { ClayMountainsImage} from '../components/GalleryItems/ClayMountains'
 export function Home () {
     return (
 
@@ -43,8 +44,8 @@ export function Home () {
 
    </div>
    <div>
-   <CKEarlyRenderImage/>
   <Image/>
+   <CKEarlyRenderImage/>
   <CKNAkedImage/>
 <CKRenderedImage/>
 <CKRenderedBackImage/>
@@ -53,6 +54,7 @@ export function Home () {
    <div>
   <HornyDevilPost/>
   <PaintedLizardImage/>
+  <ClayMountainsImage/>
    </div>
    <div style={{height:200}}>
 
