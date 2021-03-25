@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { colors } from "../../styles/colors";
-import ClayMountains from '../../Images/GallaryImages/clayMountains.png'
+import ClayMountains from '../../Images/GallaryImages/clayMountains.jpg'
 
 export function ClayMountainsImage (props) {
 
