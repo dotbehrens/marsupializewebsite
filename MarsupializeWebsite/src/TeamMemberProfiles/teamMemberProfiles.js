@@ -86,7 +86,7 @@ export const profiles = [
         name_Full: 'Dot Behrens',
         role: 'Artistic Director, Website Developer',
         image: <DotImage />,
-        bio: ``,
+        bio: `Dot is a mobile and web developer who is the driving force behind the marsupial madness. Marsupials are the future!`,
         favMarsupial: "Koala",
         favGame: "Heroes of the Storm"
     },
