@@ -19,9 +19,9 @@ style={{color: colors.ckNavyBlue,
   <AudioPlayer
   style={{ backgroundColor:colors.ckBlack, borderRadius:  8, }}
   
-  autoPlay
+  autoPlay={false}
   src={ImpendingSomething}
-  onPlay={e => console.log("onPlay")}
+ 
   // other props here
   />
   </div>

@@ -27,9 +27,9 @@ function App() {
     return (
       <div className="App" style={{backgroundColor: colors.ckNavyBlue}}>
       <MarsupialAppBar setScreen={()=>setScreen()}/>
-<LetterHead/>
+
 <Team/>
-<MarsupialFooterBar/>
+<MarsupialFooterBar setScreen={()=>setScreen()}/>
     </div>
     )
   } else if(screen === 'contact'){

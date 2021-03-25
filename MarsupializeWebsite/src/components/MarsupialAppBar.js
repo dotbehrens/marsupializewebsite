@@ -13,7 +13,7 @@ export function MarsupialAppBar (props) {
       {/* <Button color="inherit" href='src\screens\Gallery.js' style={{color:colors.ckOffWhite, "font-family": 'Gochi Hand',"font-size": 25,}}>GALLERY</Button> */}
    {/* <Button color="inherit" href='src\screens\Team.js' onClick={()=> props.setScreen('home')} style={{color:colors.ckOffWhite, "font-family": 'Gochi Hand',"font-size": 25,}}>FAQ</Button> */}
    <Button color="inherit" onClick={()=> props.setScreen('contact')} style={{color:colors.ckOffWhite, "font-family": 'Gochi Hand',"font-size": 40,}}>CONTACT</Button>
-      <Button color="inherit" onClick={()=> props.setScreen('play')} style={{color:colors.ckOffWhite, 'font-weight': 'bold',marginRight:40,"font-family": 'Gochi Hand',"font-size": 52,}}>PLAY</Button>
+      <Button color="inherit"  style={{color:colors.ckOffWhite, 'font-weight': 'bold',marginRight:40,"font-family": 'Gochi Hand',"font-size": 52,}}><a style={{color:'white', textDecoration:'none'}} href='https://play.marsupialize.com/'>PLAY</a></Button>
     </Toolbar>
   </AppBar>
    

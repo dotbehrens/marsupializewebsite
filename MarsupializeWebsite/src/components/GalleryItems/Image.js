@@ -21,7 +21,7 @@ export function Image (props) {
           marginBottom: 15,
         marginLeft:15,
         marginRight:15,
-          backgroundColor:colors.ckGrey,
+          backgroundColor:colors.ckRedGrey,
           borderRadius: 12,
           display: "inline-flex",
         }}>

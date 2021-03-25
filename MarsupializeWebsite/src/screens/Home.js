@@ -1,14 +1,19 @@
 import { Typography, } from '@material-ui/core';
-// const ckVideo = 'C:/Users/dotbe/marsupializewebsite/MarsupializeWebsite/src/Images/video0.mov'
-import {Gif} from '../components/GalleryItems/Gif'
-import {Player} from '../components/GalleryItems/AudioPlayer1'
-import {Image} from '../components/GalleryItems/Image'
-import {CKEarlyRenderImage} from '../components/GalleryItems/CKEarlyRender'
-import {CKRenderingImage} from '../components/GalleryItems/CKRendering'
-import {CactiImage} from '../components/GalleryItems/Cacti'
-import {CactusFlowerImage} from '../components/GalleryItems/CactusFlower'
-import {CKBonkImage} from '../components/GalleryItems/CKBonk'
+import {Gif} from '../components/GalleryItems/Gif';
+import {Player} from '../components/GalleryItems/AudioPlayer1';
+import {Image} from '../components/GalleryItems/Image';
+import {CKEarlyRenderImage} from '../components/GalleryItems/CKEarlyRender';
+import {CKRenderingImage} from '../components/GalleryItems/CKRendering';
+import {CactiImage} from '../components/GalleryItems/Cacti';
+import {CactusFlowerImage} from '../components/GalleryItems/CactusFlower';
+import {CKBonkImage} from '../components/GalleryItems/CKBonk';
 import {colors} from '../styles/colors';
+import {Player2} from '../components/GalleryItems/AudioPlayer2'
+import {HornyDevilPost} from '../components/GalleryItems/HornyDevil'
+import {CKRenderedImage} from '../components/GalleryItems/CKRenderedFront'
+import {CKRenderedBackImage} from '../components/GalleryItems/CKRendredBack'
+import {CKNAkedImage} from '../components/GalleryItems/CKNaked'
+import {PaintedLizardImage} from '../components/GalleryItems/PaintedLizard'
 export function Home () {
     return (
 
@@ -22,18 +27,32 @@ export function Home () {
 
    </div>
    <div>
+  
+   <Player/>
+   
+
+   </div>
+   <div>
      <CactiImage/>
      <CactusFlowerImage/>
   <CKBonkImage/>
    </div>
    <div>
-   <Player/>
+  
+   <Player2/>
 
    </div>
    <div>
    <CKEarlyRenderImage/>
   <Image/>
+  <CKNAkedImage/>
+<CKRenderedImage/>
+<CKRenderedBackImage/>
 
+   </div>
+   <div>
+  <HornyDevilPost/>
+  <PaintedLizardImage/>
    </div>
    <div style={{height:200}}>
 

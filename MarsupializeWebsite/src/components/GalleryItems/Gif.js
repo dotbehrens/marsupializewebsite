@@ -12,7 +12,7 @@ export function Gif (props) {
       background: colors.ckRedGrey,
       text: "",
     });
-    const [viewState, setViewState] = useState("viewLess");
+    // const [viewState, setViewState] = useState("viewLess");
   
 
    

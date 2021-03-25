@@ -11,7 +11,7 @@ export function MarsupialFooterBar (props) {
     <Button color="inherit" onClick={()=> props.setScreen('play')}
     // style={{color:colors.ckOffWhite, marginLeft:'auto', "font-family": 'Gochi Hand',"font-size": 45,}}
     style={{color:colors.ckOffWhite, marginLeft: 'auto', 'font-weight': 'bold',marginRight:40,"font-family": 'Gochi Hand',"font-size": 52,}}
-    >PLAY</Button>
+    ><a style={{color:'white', textDecoration:'none'}} href='https://play.marsupialize.com/'>PLAY</a></Button>
 
     </Toolbar>
   </AppBar>
